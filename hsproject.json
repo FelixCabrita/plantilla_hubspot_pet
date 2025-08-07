@@ -1,5 +1,5 @@
 {
-  "name": "plantilla_hubspot_pet",
-  "srcDir": "nala_theme",
+  "name": "nala-theme-project",
+  "srcDir": "./nala_theme",
   "platformVersion": "2025.1"
 }

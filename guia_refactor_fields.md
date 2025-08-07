@@ -68,28 +68,7 @@
    - Prueba la edición en el CMS (Theme settings y módulos).
 
 ---
-
-## 6. Checklist antes de subir el theme
-
--
-
----
-
-## 7. Comandos CLI útiles
-
-```bash
-# Autenticarse con el portal
-hs auth
-
-# Subir cambios y ver logs en tiempo real
-hs watch mi_tema --initial-upload
-
-# Recuperar un tema del portal
-hs fetch mi_tema
-```
-
----
-
+  
 ## 8. Recursos de referencia
 
 - Documentación oficial: [https://developers.hubspot.com/docs/cms/building-blocks/themes#fields-json](https://developers.hubspot.com/docs/cms/building-blocks/themes#fields-json)

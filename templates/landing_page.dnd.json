@@ -1,0 +1,211 @@
+ {
+  "label": "Nala Landing Page",
+  "layoutSections": {
+    "dnd_area": {
+      "rows": [
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@custom/hero_image",
+                  "label": "Hero Section"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "About Section Title",
+                  "module_data": {
+                    "html": "<h2 class=\"section-title\">¿Quién es Nala?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@custom/stat_card",
+                  "label": "Nala Stats"
+                }
+              ]
+            },
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "Nala Description",
+                  "module_data": {
+                    "html": "<div class=\"nala-description\"><p>Nala es una perrita maltés curiosa, cariñosa y un poquito traviesa. Siempre lista para descubrir el mundo y compartir momentos mágicos con su comunidad perruna. Su personalidad dulce y aventurera la convierte en la compañera perfecta para crear contenido lleno de amor y ternura.</p></div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "Gallery Title",
+                  "module_data": {
+                    "html": "<h3 class=\"section-title\">Galería de Nala</h3>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 1"
+                }
+              ]
+            },
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 2"
+                }
+              ]
+            },
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 4"
+                }
+              ]
+            },
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 5"
+                }
+              ]
+            },
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/image",
+                  "label": "Gallery Image 6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "Content Section Title",
+                  "module_data": {
+                    "html": "<h2 class=\"section-title\">¿Qué encontrarás en esta cuenta?</h2><p class=\"content-intro\">Vida Perruna con Nala es una cuenta tierna, educativa e inspiradora pensada para quienes aman a los perritos tanto como nosotros.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@custom/content_card",
+                  "label": "Content Cards"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "Schedule Title",
+                  "module_data": {
+                    "html": "<h2 class=\"section-title\">¿Cuándo publica Nala?</h2><p style=\"font-size: 1.2rem; color: #666; text-align: center; margin-bottom: 40px;\">Publicamos 4 veces por semana, y también compartimos historias durante la semana con frases, datos y encuestas.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@custom/day_card",
+                  "label": "Schedule Days"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@custom/cta_button",
+                  "label": "Final CTA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "modules": [
+                {
+                  "module_id": "@hubspot/rich_text",
+                  "label": "Footer",
+                  "module_data": {
+                    "html": "<footer class=\"footer\"><div class=\"container\"><div class=\"footer-content\"><h3 style=\"margin-bottom: 20px; font-size: 1.8rem;\">Vida Perruna con Nala</h3><div class=\"social-links\"><a href=\"#\" class=\"social-link\">📷</a></div></div><div class=\"copyright\"><p>&copy; 2025 Vida Perruna con Nala. Todos los derechos reservados.</p></div></div></footer>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

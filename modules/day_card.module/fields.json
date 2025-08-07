@@ -1,0 +1,28 @@
+[
+  {
+    "id": "schedule_days",
+    "type": "repeater",
+    "label": "Schedule Days",
+    "default": [
+      {
+        "day": "Lunes"
+      },
+      {
+        "day": "Miércoles" 
+      },
+      {
+        "day": "Viernes"
+      },
+      {
+        "day": "Sábado"
+      }
+    ],
+    "children": [
+      {
+        "id": "day",
+        "type": "text",
+        "label": "Day"
+      }
+    ]
+  }
+]

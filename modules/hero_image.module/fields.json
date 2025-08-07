@@ -1,0 +1,32 @@
+ [
+  {
+    "id": "emoji",
+    "type": "text",
+    "label": "Hero Emoji",
+    "default": "🐕"
+  },
+  {
+    "id": "title",
+    "type": "text", 
+    "label": "Hero Title",
+    "default": "Vida Perruna con Nala"
+  },
+  {
+    "id": "subtitle",
+    "type": "text",
+    "label": "Hero Subtitle", 
+    "default": "Amor, ternura y aventuras peluditas"
+  },
+  {
+    "id": "cta_text",
+    "type": "text",
+    "label": "CTA Text",
+    "default": "Sigue a Nala en Instagram"
+  },
+  {
+    "id": "cta_url",
+    "type": "text",
+    "label": "CTA URL",
+    "default": "#"
+  }
+]

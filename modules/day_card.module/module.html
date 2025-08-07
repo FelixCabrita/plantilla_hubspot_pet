@@ -1,0 +1,11 @@
+<section class="schedule">
+  <div class="container">
+    <div class="schedule-content">
+      <div class="schedule-grid">
+        {% for day in module.schedule_days %}
+        <div class="day-card">{{ day.day }}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

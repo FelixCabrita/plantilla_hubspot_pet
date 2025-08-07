@@ -1,0 +1,46 @@
+[
+  {
+    "id": "stats",
+    "type": "repeater",
+    "label": "Stat Cards",
+    "default": [
+      {
+        "emoji": "🐶",
+        "label": "Edad", 
+        "value": "2 años"
+      },
+      {
+        "emoji": "🧬",
+        "label": "Raza",
+        "value": "Maltés"
+      },
+      {
+        "emoji": "🎨", 
+        "label": "Color",
+        "value": "Blanca"
+      },
+      {
+        "emoji": "💖",
+        "label": "Nariz",
+        "value": "Rosadita"
+      }
+    ],
+    "children": [
+      {
+        "id": "emoji",
+        "type": "text",
+        "label": "Emoji"
+      },
+      {
+        "id": "label", 
+        "type": "text",
+        "label": "Label"
+      },
+      {
+        "id": "value",
+        "type": "text", 
+        "label": "Value"
+      }
+    ]
+  }
+]

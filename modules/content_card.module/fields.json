@@ -1,0 +1,41 @@
+[
+  {
+    "id": "content_cards",
+    "type": "repeater",
+    "label": "Content Cards",
+    "default": [
+      {
+        "emoji": "🌸",
+        "text": "Frases bonitas con ilustraciones suaves"
+      },
+      {
+        "emoji": "🐾",
+        "text": "Tips de cuidado y bienestar"
+      },
+      {
+        "emoji": "📚",
+        "text": "Curiosidades y datos peludos"
+      },
+      {
+        "emoji": "🎨",
+        "text": "Imágenes animadas generadas por IA"
+      },
+      {
+        "emoji": "❤️",
+        "text": "Historias emotivas protagonizadas por Nala"
+      }
+    ],
+    "children": [
+      {
+        "id": "emoji",
+        "type": "text",
+        "label": "Emoji"
+      },
+      {
+        "id": "text",
+        "type": "text",
+        "label": "Text"
+      }
+    ]
+  }
+]

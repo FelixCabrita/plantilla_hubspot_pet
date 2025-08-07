@@ -1,0 +1,14 @@
+<!-- modules/cta_section/module.html -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      {% module_block rich_text "cta_title" %}
+        {% module_attribute "html" %}<h2>¿Listo para llenarte de ternura cada semana?</h2>{% end_module_attribute %}
+      {% end_module_block %}
+      {% module_block rich_text "cta_subtitle" %}
+        {% module_attribute "html" %}<p>¡Acompaña a Nala en su aventura perruna!</p>{% end_module_attribute %}
+      {% end_module_block %}
+      {% module "cta_button" path="./cta_button" %}
+    </div>
+  </div>
+</section>

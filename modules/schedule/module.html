@@ -1,0 +1,16 @@
+<!-- modules/schedule/module.html -->
+<section class="schedule">
+  <div class="container">
+    <h2 class="section-title">{{ module.schedule_title }}</h2>
+    <div class="schedule-content">
+      {% module_block rich_text "schedule_description" %}
+        {% module_attribute "html" %}<p style="font-size: 1.2rem; color: #666; margin-bottom: 20px;">Publicamos 4 veces por semana, y también compartimos historias durante la semana con frases, datos y encuestas.</p>{% end_module_attribute %}
+      {% end_module_block %}
+      <div class="schedule-grid">
+        {% for day in module.schedule_days %}
+        <div class="day-card">{{ day.day_name }}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

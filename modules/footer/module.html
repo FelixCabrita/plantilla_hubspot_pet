@@ -1,0 +1,20 @@
+<!-- modules/footer/module.html -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      {% module_block rich_text "footer_title" %}
+        {% module_attribute "html" %}<h3 style="margin-bottom: 20px; font-size: 1.8rem;">Vida Perruna con Nala</h3>{% end_module_attribute %}
+      {% end_module_block %}
+      <div class="social-links">
+        {% for social in module.social_links %}
+        <a href="{{ social.url }}" class="social-link">{{ social.icon }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="copyright">
+      {% module_block rich_text "copyright_text" %}
+        {% module_attribute "html" %}<p>&copy; 2025 Vida Perruna con Nala. Todos los derechos reservados.</p>{% end_module_attribute %}
+      {% end_module_block %}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,32 @@
+ {
+  "schedule_title": {
+    "label": "Título de horario",
+    "name": "schedule_title",
+    "type": "text",
+    "default": "¿Cuándo publica Nala?"
+  },
+  "schedule_days": {
+    "label": "Días de publicación",
+    "name": "schedule_days",
+    "type": "group",
+    "occurrence": {
+      "min": 1,
+      "max": 7,
+      "default": 4
+    },
+    "children": {
+      "day_name": {
+        "label": "Nombre del día",
+        "name": "day_name",
+        "type": "text",
+        "default": "Lunes"
+      }
+    },
+    "default": [
+      {"day_name": "Lunes"},
+      {"day_name": "Miércoles"},
+      {"day_name": "Viernes"},
+      {"day_name": "Sábado"}
+    ]
+  }
+}

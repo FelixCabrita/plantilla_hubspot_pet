@@ -1,0 +1,27 @@
+ 
+{
+  "primary_bg": {
+    "label": "Color de fondo principal",
+    "name": "primary_bg",
+    "type": "color",
+    "default": {
+      "color": "#ffeef8"
+    }
+  },
+  "btn_color": {
+    "label": "Color de botones",
+    "name": "btn_color",
+    "type": "color",
+    "default": {
+      "color": "#ff69b4"
+    }
+  },
+  "btn_hover_color": {
+    "label": "Color de botones al hover",
+    "name": "btn_hover_color",
+    "type": "color",
+    "default": {
+      "color": "#ff1493"
+    }
+  }
+}

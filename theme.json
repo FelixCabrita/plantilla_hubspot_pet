@@ -1,0 +1,8 @@
+ 
+{
+ "label": "Mi Landing Theme",
+ "preview_path": "./templates/landing.html",
+ "screenshot_path": "./images/template-preview.png",
+ "template_types": ["page"],
+ "is_available_for_new_content": true
+}

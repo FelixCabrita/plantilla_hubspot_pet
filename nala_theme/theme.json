@@ -1,4 +1,5 @@
- {
+{
   "label": "Nala Theme",
-  "preview_path": "./templates/landing_page.dnd.json"
+  "preview_path": "./templates/landing_page.dnd.json",
+  "screenshot_path": "./images/theme-preview.png"
 }

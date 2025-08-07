@@ -1,11 +1,11 @@
-{
-  "gallery_title": {
+[
+  {
     "label": "Título de la galería",
     "name": "gallery_title",
     "type": "text",
     "default": "Galería de Nala"
   },
-  "gallery_items": {
+  {
     "label": "Elementos de la galería",
     "name": "gallery_items",
     "type": "group",
@@ -14,20 +14,20 @@
       "max": 12,
       "default": 6
     },
-    "children": {
-      "image": {
+    "children": [
+      {
         "label": "Imagen",
         "name": "image",
         "type": "image",
         "resizable": true
       },
-      "placeholder_text": {
+      {
         "label": "Texto del placeholder",
         "name": "placeholder_text",
         "type": "text",
         "default": "Foto de Nala"
       }
-    },
+    ],
     "default": [
       {"placeholder_text": "Foto de Nala jugando"},
       {"placeholder_text": "Nala en el parque"},
@@ -37,4 +37,4 @@
       {"placeholder_text": "Nala siendo tierna"}
     ]
   }
-}
+]

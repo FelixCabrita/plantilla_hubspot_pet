@@ -1,5 +1,5 @@
- {
-  "social_links": {
+[
+  {
     "label": "Enlaces sociales",
     "name": "social_links",
     "type": "group",
@@ -8,22 +8,22 @@
       "max": 5,
       "default": 1
     },
-    "children": {
-      "icon": {
+    "children": [
+      {
         "label": "Icono",
         "name": "icon",
         "type": "text",
         "default": "📷"
       },
-      "url": {
+      {
         "label": "URL",
         "name": "url",
         "type": "url",
         "default": "#"
       }
-    },
+    ],
     "default": [
       {"icon": "📷", "url": "#"}
     ]
   }
-}
+]

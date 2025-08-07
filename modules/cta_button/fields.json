@@ -1,14 +1,14 @@
-{
-  "button_text": {
+[
+  {
     "label": "Texto del botón",
     "name": "button_text",
     "type": "text",
     "default": "Sigue a Nala en Instagram"
   },
-  "button_url": {
+  {
     "label": "URL del botón",
     "name": "button_url",
     "type": "url",
     "default": "#"
   }
-}
+]

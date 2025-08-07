@@ -1,4 +1,5 @@
 {
   "name": "plantilla_hubspot_pet",
-  "srcDir": "src"
+  "srcDir": "src",
+  "platformVersion": "2023.2"
 }

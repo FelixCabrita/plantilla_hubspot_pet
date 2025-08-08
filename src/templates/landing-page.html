@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page_meta.html_title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ require_css(get_asset_url("./css/main.css")) }}
 </head>
 <body>
@@ -10,6 +11,74 @@
         {% dnd_section %}
             {% dnd_column %}
                 {% dnd_module path="./modules/hero-image.module" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/rich_text" %}
+                    {% module_attribute "html" %}<h2 class="section-title">¿Quién es Nala?</h2>{% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="./modules/stat-card.module" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/rich_text" %}
+                    {% module_attribute "html" %}
+                    <div class="nala-description">
+                        <p>Nala es una perrita maltés curiosa, cariñosa y un poquito traviesa. Siempre lista para descubrir el mundo y compartir momentos mágicos con su comunidad perruna.</p>
+                    </div>
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/rich_text" %}
+                    {% module_attribute "html" %}<h3 class="section-title">Galería de Nala</h3>{% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/image" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/image" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/image" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="./modules/content-card.module" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="./modules/day-card.module" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="./modules/cta-button.module" %}
                 {% end_dnd_module %}
             {% end_dnd_column %}
         {% end_dnd_section %}

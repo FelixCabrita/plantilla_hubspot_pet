@@ -1,9 +1,9 @@
 /* css/main.css */
 :root {
-  --primary-gradient: {{ theme.primary_gradient.color }};
-  --accent-gradient: {{ theme.accent_gradient.color }};
-  --font-base: {{ theme.font_base.font }}, {{ theme.font_base.fallback }};
-  --show-card-shadow: {{ theme.show_card_shadow ? "0 10px 25px rgba(0, 0, 0, 0.08)" : "none" }};
+  --primary-gradient: {{ theme.primary_gradient.color|default('#ff9a9e') }};
+  --accent-gradient: {{ theme.accent_gradient.color|default('#667eea') }};
+  --font-base: {{ theme.font_base.font|default('Segoe UI') }}, {{ theme.font_base.fallback|default('sans-serif') }};
+  --show-card-shadow: {% if theme.show_card_shadow %}0 10px 25px rgba(0, 0, 0, 0.08){% else %}none{% endif %};
 }
 
 * {

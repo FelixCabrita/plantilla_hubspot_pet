@@ -1,4 +1,4 @@
 {
   "label": "CTA Button",
-  "host_template_types": ["LANDING_PAGE", "PAGE"]
+  "host_template_types": [ "PAGE"]
 }

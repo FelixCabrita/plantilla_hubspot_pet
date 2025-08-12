@@ -1,24 +1,28 @@
 [
   {
     "id": "cta_title",
+    "name": "cta_title",
     "type": "text",
     "label": "CTA Title",
     "default": "¿Listo para llenarte de ternura cada semana?"
   },
   {
     "id": "cta_subtitle",
+    "name": "cta_subtitle",
     "type": "text",
     "label": "CTA Subtitle",
     "default": "¡Acompaña a Nala en su aventura perruna!"
   },
   {
     "id": "cta_text",
+    "name": "cta_text",
     "type": "text",
     "label": "CTA Button Text",
     "default": "Síguela en Instagram"
   },
   {
     "id": "cta_url",
+    "name": "cta_url",
     "type": "text",
     "label": "CTA URL",
     "default": "#"

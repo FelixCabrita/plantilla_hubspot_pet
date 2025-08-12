@@ -1,8 +1,8 @@
- <div class="nala-stats">
+<div class="nala-stats">
   {% for stat in module.stats %}
   <div class="stat-card">
     <span class="stat-emoji">{{ stat.emoji }}</span>
-    <div class="stat-label">{{ stat.label }}</div>
+    <div class="stat-label">{{ stat.stat_label }}</div>
     <div class="stat-value">{{ stat.value }}</div>
   </div>
   {% endfor %}

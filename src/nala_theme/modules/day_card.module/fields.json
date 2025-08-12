@@ -1,8 +1,14 @@
 [
   {
     "id": "schedule_days",
-    "type": "repeater",
+    "name": "schedule_days",
+    "type": "group",
     "label": "Schedule Days",
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "default": 4
+    },
     "default": [
       {
         "day": "Lunes"
@@ -20,6 +26,7 @@
     "children": [
       {
         "id": "day",
+        "name": "day",
         "type": "text",
         "label": "Day"
       }

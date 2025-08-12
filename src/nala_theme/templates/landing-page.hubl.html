@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>{{ page_meta.html_title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ require_css(get_asset_url("./css/main.css.hubl.html")) }}
+    {{ require_css(get_asset_url("../css/main.css")) }}
 </head>
 <body>
     {% dnd_area "main_content" %}
@@ -71,6 +71,14 @@
         
         {% dnd_section %}
             {% dnd_column %}
+                {% dnd_module path="@hubspot/rich_text" %}
+                    {% module_attribute "html" %}<h2 class="section-title">¿Cuándo publica Nala?</h2><p style="font-size: 1.2rem; color: #666; text-align: center; margin-bottom: 40px;">Publicamos 4 veces por semana, y también compartimos historias durante la semana con frases, datos y encuestas.</p>{% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
                 {% dnd_module path="./modules/day_card.module" %}
                 {% end_dnd_module %}
             {% end_dnd_column %}
@@ -79,6 +87,28 @@
         {% dnd_section %}
             {% dnd_column %}
                 {% dnd_module path="./modules/cta_button.module" %}
+                {% end_dnd_module %}
+            {% end_dnd_column %}
+        {% end_dnd_section %}
+        
+        {% dnd_section %}
+            {% dnd_column %}
+                {% dnd_module path="@hubspot/rich_text" %}
+                    {% module_attribute "html" %}
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="footer-content">
+                                <h3 style="margin-bottom: 20px; font-size: 1.8rem;">Vida Perruna con Nala</h3>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">📷</a>
+                                </div>
+                            </div>
+                            <div class="copyright">
+                                <p>&copy; 2025 Vida Perruna con Nala. Todos los derechos reservados.</p>
+                            </div>
+                        </div>
+                    </footer>
+                    {% end_module_attribute %}
                 {% end_dnd_module %}
             {% end_dnd_column %}
         {% end_dnd_section %}

@@ -1,8 +1,14 @@
 [
   {
     "id": "stats",
-    "type": "repeater",
+    "name": "stats",
+    "type": "group",
     "label": "Stat Cards",
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "default": 4
+    },
     "default": [
       {
         "emoji": "🐶",
@@ -28,16 +34,19 @@
     "children": [
       {
         "id": "emoji",
+        "name": "emoji",
         "type": "text",
         "label": "Emoji"
       },
       {
-        "id": "label", 
+        "id": "label",
+        "name": "label", 
         "type": "text",
         "label": "Label"
       },
       {
         "id": "value",
+        "name": "value",
         "type": "text", 
         "label": "Value"
       }

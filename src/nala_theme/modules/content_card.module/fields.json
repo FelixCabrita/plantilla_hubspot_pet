@@ -1,8 +1,14 @@
 [
   {
     "id": "content_cards",
-    "type": "repeater",
+    "name": "content_cards",
+    "type": "group",
     "label": "Content Cards",
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "default": 5
+    },
     "default": [
       {
         "emoji": "🌸",
@@ -28,11 +34,13 @@
     "children": [
       {
         "id": "emoji",
+        "name": "emoji",
         "type": "text",
         "label": "Emoji"
       },
       {
         "id": "text",
+        "name": "text",
         "type": "text",
         "label": "Text"
       }

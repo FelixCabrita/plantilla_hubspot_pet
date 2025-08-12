@@ -1,18 +1,21 @@
- [
+[
   {
     "id": "colors_group",
+    "name": "colors_group",
     "label": "Colors",
     "type": "group",
     "expanded": true,
     "children": [
       {
         "id": "primary_gradient",
+        "name": "primary_gradient",
         "type": "color",
         "label": "Primary Gradient",
         "default": "#ff9a9e"
       },
       {
-        "id": "accent_gradient", 
+        "id": "accent_gradient",
+        "name": "accent_gradient", 
         "type": "color",
         "label": "Accent Gradient",
         "default": "#667eea"
@@ -21,12 +24,14 @@
   },
   {
     "id": "typography_group",
+    "name": "typography_group",
     "label": "Typography",
     "type": "group",
     "expanded": true,
     "children": [
       {
         "id": "font_base",
+        "name": "font_base",
         "type": "font",
         "label": "Base Font",
         "load_external_fonts": true,
@@ -39,12 +44,14 @@
   },
   {
     "id": "visual_effects",
+    "name": "visual_effects",
     "label": "Visual Effects",
     "type": "group",
     "expanded": false,
     "children": [
       {
         "id": "show_card_shadow",
+        "name": "show_card_shadow",
         "type": "boolean",
         "label": "Show Card Shadows",
         "default": true
